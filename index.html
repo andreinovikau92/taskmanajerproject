@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Task Manager</h3>
+    <form action="">
+        <div>
+            <input type="text" id="new-question" placeholder="Enter a new task">
+
+            <div>
+                <button id="add-task">Add Task</button>
+            </div>
+        
+            <div>
+                <button id="generate-task">Generate Task</button>
+            </div>
+            
+        </div>    
+    </form>
+
+    <div id="question"></div>
+    
+    <div>
+        <input type="text" id="user-answer" placeholder="Enter your answer">
+    </div>
+
+    <div>
+        <button id="check-answer">Check Answer</button>
+    </div>
+
+    <div id="answer"></div>
+
+    <div>
+        <button id="hint" onclick="getHint()">Get Hint</button>
+    </div>
+
+    <div id="answer-hint">Hint:</div>
+    
+    <div id="no-hint"></div>
+
+    <div id="counter-correct">Correct:</div>
+    <div id="counter-incorrect">Incorrect:</div>
+
+    <button id="clear">Clear Counters</button>
+
+    <div>Task History:</div>
+    <div id="task-history"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
